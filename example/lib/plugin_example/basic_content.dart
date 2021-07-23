@@ -42,7 +42,7 @@ class BasicContent extends StatelessWidget {
                 imageBuilder: (context, imageProvider) => Container(
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: imageProvider,
+                      image: imageProvider!,
                       fit: BoxFit.cover,
                       colorFilter: const ColorFilter.mode(
                         Colors.red,
